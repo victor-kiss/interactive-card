@@ -174,7 +174,7 @@ footer.footer > span{
   color:#FFF;
   font-size: 18px;
 }
-footer.footer > a{
+footer.footer > span > a{
   font-weight: bold;
   text-decoration: none;
   color: #FFF;
