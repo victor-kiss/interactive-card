@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -18,7 +19,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <footer className="footer">
-          <span>Developed by ssik824</span>
+          <span>Developed by <Link href="https://github.com/victor-kiss">ssik824</Link></span>
         </footer>
       </body>
     </html>
